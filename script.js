@@ -9,7 +9,7 @@ const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'N
         }
 
         const sortedBands = sortBands(bands);
-        const bandList = document.getElementById('band');
+        const bandList = document.getElementById('bands');
 
         sortedBands.forEach(band => {
             const li = document.createElement('li');
